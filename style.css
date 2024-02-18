@@ -77,3 +77,24 @@ footer h3{
     font-size: 1.5rem;
     color: #E1341E;
 }
+@media screen and (max-width:300px){
+    .box{
+        height: 60px;
+        width: 60px;
+    }
+    #heading{
+        transform: scale(0.6);
+    }
+}
+@media screen and (max-width:400px){
+    .box{
+        height: 80px;
+        width: 80px;
+    }
+}
+@media screen and (max-width:500px){
+    .box{
+        height: 100px;
+        width: 100px;
+    }
+}
