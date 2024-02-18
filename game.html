@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Dosis&family=Indie+Flower&family=Montserrat:wght@300;400;500;600;700&family=Pacifico&family=Protest+Revolution&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1>Tic Tac Toe Game</h1>
+</header>
+<main>
+    <div id="main-div">
+        <div class="row1">
+            <div class="box r0 c0" id="r0c0" onclick="move(0,0)"></div>
+            <div class="box r0 c1" id="r0c1" onclick="move(0,1)"></div>
+            <div class="box r0 c2" id="r0c2" onclick="move(0,2)"></div>
+        </div>
+        <div class="row2">
+            <div class="box r1 c0" id="r1c0" onclick="move(1,0)"></div>
+            <div class="box r1 c1" id="r1c1" onclick="move(1,1)"></div>
+            <div class="box r1 c2" id="r1c2" onclick="move(1,2)"></div>
+        </div>
+        <div class="row3">
+            <div class="box r2 c0" id="r2c0" onclick="move(2,0)"></div>
+            <div class="box r2 c1" id="r2c1" onclick="move(2,1)"></div>
+            <div class="box r2 c2" id="r2c2" onclick="move(2,2)"></div>
+        </div>
+    </div>
+</main>
+<footer>
+    <h3 id="player-detail">Current Player == X</h3>
+</footer>    
+<script src="app.js"></script>
+</body>
+</html>
